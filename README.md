@@ -11,9 +11,6 @@ Cryptocurrencies is a trending market and its very easy to get confused among al
         3. Clustering data using K-means Algorithm
         4. Visualizing Results.
 
-Use unsupervised machine learning techniques to analyze cryptocurrency data.
-
-
 # Results
 From the original 1,253 cryptocurrencies in the original data file, after the filtering process we worked with only 532 cryptos. Then I reduced data dimensions  to three principal components and I created a new DataFrame. In the next deliverable I plot an Elbow Curve using to find the best value for clustering groups. After that,in order to prepare the data for the clustering process.
  
@@ -31,5 +28,5 @@ From the original 1,253 cryptocurrencies in the original data file, after the fi
 ### *Tradable Cryptocurrencies*
 <img width="550" alt="Tradable crytocurrencies table" src="https://user-images.githubusercontent.com/102195803/183267820-8e3e2591-b45f-4b5d-9b8f-af47bb67c279.png">
 
-### *Scatter plot with the "TotalCoinsMinned" vs "TotalCoinsSupply" grouped by cluster*
+### *Scatter plot with the "TotalCoinsMined" vs "TotalCoinsSupply" grouped by cluster*
 <img width="660" alt="Scatter plot" src="https://user-images.githubusercontent.com/102195803/183267843-d0a31788-84b3-4afa-ad58-7cc018cb8940.png">
